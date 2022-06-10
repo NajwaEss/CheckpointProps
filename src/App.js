@@ -3,10 +3,10 @@ import image from "./user.png"
 
 function App() {
     const handleName = name => alert(name);
-    const bio="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s";
+    const bio="Heey, I am ESSAFI Najwa ans I am happy to join GOMYCODE team ";
   return (
     <div className="App">
-        <ProfileComponent fullName="Hajar" bio={bio} profession="Developpeur" handleName={handleName}>
+        <ProfileComponent fullName="Essafi Najwa" bio={bio} profession="Developpeur" handleName={handleName}>
             <img style={{height:"148px"}} src={image}/>
         </ProfileComponent>
     </div>
